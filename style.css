@@ -1,6 +1,6 @@
 body {
     background: #000000;
-    width: 340px;
+    width: 350px;
     margin: auto;
     font-family: Inter;
 }
@@ -61,7 +61,7 @@ body {
 }
 .main__triangle {
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 0;
     z-index: 5;
 }
@@ -100,10 +100,10 @@ body {
 }
 .list {
     margin: auto;
-    width: 360px;
-    height: 1320px;
+    width: 350px;
     background-color: #fee42a;
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 .list__answers {
     margin: 0;
@@ -126,14 +126,14 @@ body {
 .list__text {
     font-weight: 400;
     line-height: 27px;
-    font-size: 20px;
+    font-size: 17px;
     margin: auto;
     width: 320px;
     height: 297px;
 }
 .list__answer {
     margin: auto;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 21.6px;
     font-weight: 400;
     margin-bottom: 16px;
