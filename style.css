@@ -1,0 +1,235 @@
+body {
+    background: #000000;
+    width: 360px;
+    margin: auto;
+    font-family: Inter;
+}
+.header {
+    width: 360px;
+    height: 132px;
+    position: relative;
+}
+.header__navs {
+    width: 75px;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+}
+.header__nav {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19.2px;
+    transition: 0.2s;
+}
+.header__logo {
+    width: 78.45px;
+    height: 15.43px;
+    position: absolute;
+    top: 24px;
+    left: 20px;
+}
+.header__nav:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.main {
+    width: 340px;
+    height: 221px;
+    margin: auto;
+    position: relative;
+}
+.main__text {
+    margin: 0;
+    font-family: "EB Garamond", serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    color: white;
+    z-index: 8;
+    position: relative;
+}
+.main__elipse {
+    z-index: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 120px;
+    height: 120px;
+    z-index: 5;
+}
+.main__triangle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+.ways {
+    margin: auto;
+    margin-top: 31px;
+    width: 340px;
+    height: 453px;
+}
+.ways__title {
+    display: flex;
+    justify-content: space-between;
+}
+.ways__text {
+    margin-top: 24px;
+    color: white;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+}
+.ways__header {
+    margin: 0;
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 400;
+    width: 203px;
+    height: 38px;
+}
+.ways__date {
+    margin: 0;
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 400;
+}
+.list {
+    margin: auto;
+    width: 360px;
+    height: 1320px;
+    background-color: #fee42a;
+    padding-top: 10px;
+}
+.list__answers {
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    margin: auto;
+    padding-left: 25px;
+}
+.list__title {
+    font-family: "EB Garamond", serif;
+    font-weight: 600;
+    line-height: 115%;
+    font-size: 28px;
+    margin: auto;
+    width: 320px;
+    height: 61px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+.list__text {
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 20px;
+    margin: auto;
+    width: 320px;
+    height: 297px;
+}
+.list__answer {
+    margin: auto;
+    font-size: 16px;
+    line-height: 21.6px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.list__title__white {
+    color: white;
+}
+.list__text__white {
+    color: white;
+    margin-bottom: 32px;
+}
+.start {
+    margin: auto;
+    width: 320px;
+    height: 300px;
+}
+.card {
+    margin: auto;
+    width: 320px;
+    background: rgba(52, 52, 52, 1);
+    border-radius: 30px;
+}
+.card__image {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.card__image-name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 135%;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+.card__title {
+    margin: 0;
+    font-family: "EB Garamond", serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 135%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.card__text {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.advice {
+    margin: auto;
+    width: 320px;
+    background: rgba(254, 228, 42, 1);
+    border-radius: 30px;
+    padding-top: 5px;
+}
+.advice .card__title {
+    color: black;
+    margin-top: 20px;
+}
+.advice .card__text {
+    color: black;
+}
+
+.footer {
+    width: 360px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: white;
+    margin: 0;
+}
+
+.footer__apps {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    color: white;
+    margin: 0;
+}
